@@ -1,10 +1,10 @@
-// Generator function 
+// DOM Declarations
 
-// function getRandomLower() {
-//     return String.fromCharCode(Math.floor(Math.random() * 126) + 33);
-// }
+const lengthEl = document.getElementById('length');
+const generateEl = documant.getElementById('generate');
 
-// console.log(getRandomLower());
+
+
 
 function getRandomChar() {
     const characters = ["+", "-", "&", "||", "!", "(", ")", "{", "}", "[", "]", "^",
@@ -15,3 +15,4 @@ function getRandomChar() {
 }
 
 console.log(getRandomChar());
+

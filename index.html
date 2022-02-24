@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,39 @@
     <title>Password Generator</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
-    <h1>Password Generator</h1>
+    <div class="container">
+        <div class="top-wrapper">
+            <h1 class="title">Generate a random password</h1>
+            <h3 class="sub-heading">Never use an insecure password again.</h3>
+            <button id="generate">Generate passwords</button>
+            <input type="number" id="length" min='4' max='20' value='20' />
+        </div>
+        <hr>
+        <div class="bottom-wrapper">
+            <div class="left-wrapper">
+                <div class="top">
+                    <p id="first-password">1</p>
+                </div>
+                <div class="bottom">
+                    <p id="second-password">2</p>
+                </div>
+            </div>
+            <div class="right-wrapper">
+                <div class="top">
+                    <p id="third-password">3</p>
+                </div>
+                <div class="bottom">
+                    <p id="fourth-password">4</p>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
     <script src="./app.js"></script>
 </body>
+
 </html>

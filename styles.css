@@ -1,0 +1,10 @@
+:root{
+    --dark-black: #1C1C1C;      /* generate a -- color */
+    --dark-blue: #273549;       /* password div background color color */
+    --aqua-green: #10B981;      /*'random password' / button color */
+    --gray: #6B7280;            /* Sub header color && threee dots prepassword */
+    --light-ass-aqua: #ECFDF5;  /* Container background color */
+    --password-color: #55F991;  /* password color post generation*/
+    --lightest-grey: #D5D4D8;   /* tiny line seperating top and bottom half color*/
+    --white: #ffffff;           /* button lettering color */
+}

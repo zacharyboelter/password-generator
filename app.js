@@ -43,3 +43,9 @@ generateEl.addEventListener('click', () => {
     fourthEl.textContent = passWord4
 })
 
+function copyText() {
+    firstEl.select()
+    navigator.clipboard.writeText(firstEl.value)
+    alert(`Copied the password ${firstEl.value}`)
+}
+

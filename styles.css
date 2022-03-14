@@ -20,6 +20,7 @@ html, body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    flex-direction: column;
 
 }
 
@@ -107,7 +108,7 @@ input[type=number] {
 
 .line {
     width: 95%;
-    height: 3px;
+    height: 1px;
     background-color: var(--gray);
     margin-top: 2em;
 }
@@ -141,4 +142,14 @@ input[type=number] {
     text-align: center;
     border-radius: .5rem;
     padding-top: .2rem;
+}
+
+a {
+    color: var(--light-ass-aqua);
+    font-weight: 100;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--aqua-green);
 }

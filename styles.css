@@ -3,7 +3,7 @@
 :root{
     --dark-black: #1C1C1C;      /* generate a -- color */
     --dark-blue: #273549;       /* password div background color color */
-    --aqua-green: #10B981;      /*'random password' / button color */
+    --aqua-green: #10b981;      /*'random password' / button color */
     --gray: #6B7280;            /* Sub header color && threee dots prepassword */
     --light-ass-aqua: #ECFDF5;  /* Container background color */
     --password-color: #55F991;  /* password color post generation*/
@@ -47,5 +47,34 @@ html, body {
 }
 
 #generate {
-    
+    background-color: var(--aqua-green);
+    border: 0;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: var(--white);
+    font-size: .875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: .75rem 1rem;
+    text-align: center;
+    text-decoration: none #D1D5DB solid;
+    text-decoration-thickness: auto;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+     cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+#generate:hover {
+    background-color: #1ea87a;
+}
+
+#generate:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.button-38:focus-visible {
+    box-shadow: none;
 }

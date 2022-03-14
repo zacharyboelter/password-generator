@@ -8,3 +8,18 @@
     --lightest-grey: #D5D4D8;   /* tiny line seperating top and bottom half color*/
     --white: #ffffff;           /* button lettering color */
 }
+
+html, body {
+    margin: 0 auto;
+    background-color: var(--dark-black);
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 75px;
+    align-items: center;
+    background-color: var(--light-ass-aqua);
+}

@@ -50,5 +50,5 @@ Users should be able to:
 ## Author
 
 - Website - [Zachary Boelter](https://zacharyboelter.netlify.app/)
-- Twitter - [@zapperdack](https://www.twitter.com/zapperdack)
 - LinkedIn - [Zachary Boelter](https://www.linkedin.com/in/zachary-boelter/)
+- Twitter - [@zapperdack](https://www.twitter.com/zapperdack)

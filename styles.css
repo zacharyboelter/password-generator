@@ -16,6 +16,11 @@ html, body {
     background-color: var(--dark-black);
     align-items: center;
     font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
 }
 
 .container {
@@ -26,6 +31,7 @@ html, body {
     align-items: center;
     background-color: var(--light-ass-aqua);
     padding: 45px;
+    max-width: 700px;
 }
 
 .title {
@@ -77,4 +83,62 @@ html, body {
 
 .button-38:focus-visible {
     box-shadow: none;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    
+     -webkit-appearance: none; 
+    margin: 0; 
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+#length {
+    margin-left: 70px;
+    width: 10%;
+    border: none;
+    font-size: 1rem;
+    height: 40px;
+    text-align: center;
+}
+
+.line {
+    width: 95%;
+    height: 3px;
+    background-color: var(--gray);
+    margin-top: 2em;
+}
+
+.bottom-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.left-wrapper {
+    display: flex;
+}
+.right-wrapper {
+    display: flex;
+}
+
+.top {
+    padding-right: 20px;
+}
+
+
+.password {
+    background-color: var(--dark-blue);
+    color: var(--aqua-green);
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    border-radius: .5rem;
+    padding-top: .2rem;
 }

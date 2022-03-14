@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;800&display=swap');
+
 :root{
     --dark-black: #1C1C1C;      /* generate a -- color */
     --dark-blue: #273549;       /* password div background color color */
@@ -13,6 +15,7 @@ html, body {
     margin: 0 auto;
     background-color: var(--dark-black);
     align-items: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 .container {
@@ -22,4 +25,27 @@ html, body {
     margin: 75px;
     align-items: center;
     background-color: var(--light-ass-aqua);
+    padding: 45px;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--dark-blue);
+    line-height: 3rem;
+}
+
+.title #random-password {
+    color: var(--aqua-green);
+}
+
+.sub-heading {
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: .1em;
+    color: var(--gray);
+}
+
+#generate {
+    
 }
